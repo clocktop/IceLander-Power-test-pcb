@@ -1,0 +1,21 @@
+Circuit: * E:\Box Sync\ICEE\ICEE-repos\IceLander-Power-test-pcb\sim\IceLander-Power-Switching.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Aug 14 12:53:48 2020
+Total elapsed time: 0.142 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 12781
+traniter = 12775
+tranpoints = 4199
+accept = 3389
+rejected = 810
+matrix size = 17
+fillins = 7
+solver = Normal
+Matrix Compiler1: 1.28 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.41 KB object code size  0.1/0.2/[0.1]
+

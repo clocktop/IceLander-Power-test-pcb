@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name icelander-power-test-pcb)(type KiCad)(uri ${KIPRJMOD}/icelander-power-test-pcb.pretty)(options "")(descr ""))
+)

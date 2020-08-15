@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQJ479-T1_GE3
+D MOSFET P-CH 80V 32A POWERPAKSO-8
+K PMOS pchan
+F https://www.vishay.com/docs/75129/sqj479ep.pdf
+$ENDCMP
+#
+#End Doc Library
