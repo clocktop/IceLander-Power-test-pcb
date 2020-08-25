@@ -1,6 +1,78 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x06_Male
+#
+DEF Connector_Conn_01x06_Male J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x06_Male" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -295 0 -305 1 1 6 F
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+P 2 1 1 6 50 -300 34 -300 N
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+X Pin_1 1 200 200 150 L 50 50 1 1 P
+X Pin_2 2 200 100 150 L 50 50 1 1 P
+X Pin_3 3 200 0 150 L 50 50 1 1 P
+X Pin_4 4 200 -100 150 L 50 50 1 1 P
+X Pin_5 5 200 -200 150 L 50 50 1 1 P
+X Pin_6 6 200 -300 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_TestPoint_Alt
+#
+DEF Connector_TestPoint_Alt TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint_Alt" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+P 5 0 1 0 0 100 -30 130 0 160 30 130 0 100 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -36,6 +108,36 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# IceLander-Power-test-pcb_BMI088-Sensor_Motion
+#
+DEF IceLander-Power-test-pcb_BMI088-Sensor_Motion U 0 40 Y Y 1 F N
+F0 "U" -350 650 50 H V C CNN
+F1 "IceLander-Power-test-pcb_BMI088-Sensor_Motion" 250 -600 50 H V C CNN
+F2 "icelander-power-test-pcb:BMI088-LGA-16" -350 650 50 H I C CNN
+F3 "" -350 650 50 H I C CNN
+F4 "828-1082-1-ND" 450 -800 50 H I C CNN "Digikey Part Number"
+F5 "BMI088" 450 -700 50 H I C CNN "Manufacturer Part Number"
+DRAW
+S -350 600 350 -550 0 1 0 f
+X INT2 1 -450 -400 100 R 50 50 1 1 I
+X SDO2 10 450 150 100 L 50 50 1 1 I
+X VDDIO 11 450 50 100 L 50 50 1 1 I
+X INT3 12 450 -50 100 L 50 50 1 1 I
+X INT4 13 450 -150 100 L 50 50 1 1 I
+X CSB1 14 450 -250 100 L 50 50 1 1 I
+X SDO1 15 450 -350 100 L 50 50 1 1 I
+X INT1 16 0 -650 100 U 50 50 1 1 I
+X NC 2 -450 -250 100 R 50 50 1 1 I
+X VDD 3 -450 -150 100 R 50 50 1 1 I
+X GND 4 -450 -50 100 R 50 50 1 1 I
+X CSB2 5 -450 50 100 R 50 50 1 1 I
+X GNDIO 6 -450 150 100 R 50 50 1 1 I
+X PS 7 -450 250 100 R 50 50 1 1 I
+X SCL 8 0 700 100 D 50 50 1 1 I
+X SDA 9 450 500 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # IceLander-Power-test-pcb_MIC5283-3.3YML-TR
 #
 DEF IceLander-Power-test-pcb_MIC5283-3.3YML-TR U 0 40 Y Y 1 F N
@@ -55,6 +157,19 @@ X SNS 6 450 -50 100 L 50 50 1 1 P
 X NC 7 450 50 100 L 50 50 1 1 N
 X Vout 8 450 150 100 L 50 50 1 1 w
 X EP 9 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IceLander-Power-test-pcb_PAD
+#
+DEF IceLander-Power-test-pcb_PAD J 0 40 Y Y 1 F N
+F0 "J" -50 150 50 H V C CNN
+F1 "IceLander-Power-test-pcb_PAD" 0 0 50 H V C CNN
+F2 "icelander-power-test-pcb:PowerPad" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 f
+X ~ 1 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -152,6 +267,26 @@ X RB11 9 -800 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Reference_Voltage_TL431DBZ
+#
+DEF Reference_Voltage_TL431DBZ U 0 20 N N 1 F N
+F0 "U" -100 100 50 H V C CNN
+F1 "Reference_Voltage_TL431DBZ" 0 -100 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 0 -150 50 H I C CIN
+F3 "" 0 0 50 H I C CIN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -50 0 0 0 50 0 N
+P 3 0 1 0 -30 30 30 0 -30 -30 F
+P 4 0 1 10 20 -40 30 -30 30 30 30 30 N
+X K 1 100 0 100 L 50 50 1 1 P
+X REF 2 0 100 100 D 50 50 1 1 P
+X A 3 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Sensor_Current_ACS781xLRTR-050U
 #
 DEF Sensor_Current_ACS781xLRTR-050U U 0 20 Y Y 1 F N
@@ -225,6 +360,35 @@ X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dk_Interface-Sensor-and-Detector-Interfaces_AD8495ARMZ
+#
+DEF dk_Interface-Sensor-and-Detector-Interfaces_AD8495ARMZ U 0 40 Y Y 1 F N
+F0 "U" -307 139 60 H V L CNN
+F1 "dk_Interface-Sensor-and-Detector-Interfaces_AD8495ARMZ" 11 -347 60 H V L CNN
+F2 "digikey-footprints:TSSOP-8_W3mm" 200 200 60 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf" 200 300 60 H I L CNN
+F4 "AD8495ARMZ-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "AD8495ARMZ" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Interface - Sensor and Detector Interfaces" 200 700 60 H I L CNN "Family"
+F8 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/analog-devices-inc/AD8495ARMZ/AD8495ARMZ-ND/2404366" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC THERMOCOUPLE A W/COMP 8MSOP" 200 1000 60 H I L CNN "Description"
+F11 "Analog Devices Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 100 -300 -300 0 1 0 f
+X IN- 1 -400 0 100 R 50 50 1 1 I
+X REF 2 400 -200 100 L 50 50 1 1 O
+X VS- 3 0 -400 100 U 50 50 1 1 W
+X NC 4 -300 -200 100 R 50 50 1 1 N N
+X SENSE 5 400 -100 100 L 50 50 1 1 O
+X OUT 6 400 0 100 L 50 50 1 1 O
+X VS+ 7 0 200 100 D 50 50 1 1 W
+X IN+ 8 -400 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # dk_LED-Indication-Discrete_LG_R971-KN-1
 #
 DEF dk_LED-Indication-Discrete_LG_R971-KN-1 D 0 0 Y Y 1 F N
@@ -278,6 +442,65 @@ P 3 0 1 0 0 125 25 125 25 100 N
 P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
 X ~ 1 -200 0 100 R 50 50 1 1 P
 X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K
+#
+DEF dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K POT 0 0 Y Y 1 F N
+F0 "POT" -75 250 60 H V R CNN
+F1 "dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K" 275 -200 60 H V R CNN
+F2 "digikey-footprints:Potentiometer_P120PK-Y25BR10K" 200 200 60 H I L CNN
+F3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" 200 300 60 H I L CNN
+F4 "987-1710-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "P120PK-Y25BR10K" 200 500 60 H I L CNN "MPN"
+F6 "Potentiometers, Variable Resistors" 200 600 60 H I L CNN "Category"
+F7 "Rotary Potentiometers, Rheostats" 200 700 60 H I L CNN "Family"
+F8 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/tt-electronics-bi/P120PK-Y25BR10K/987-1710-ND/5957454" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "POT 10K OHM 1/20W PLASTIC LINEAR" 200 1000 60 H I L CNN "Description"
+F11 "TT Electronics/BI" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -275 200 375 -150 0 1 0 f
+P 2 0 1 0 -250 0 -350 0 N
+P 2 0 1 0 450 0 350 0 N
+P 4 0 1 0 -25 125 -50 150 50 150 0 100 F
+P 4 0 1 0 0 100 -25 125 25 125 0 100 N
+P 10 0 1 0 -249 1 -199 101 -99 -99 -49 1 1 101 101 -99 201 101 301 -99 351 1 451 1 N
+X ~ 4 300 -250 100 U 50 50 1 0 U
+X CCW 1 -450 0 100 R 50 50 1 1 P
+X S 2 0 350 200 D 50 50 1 1 P
+X CW 3 550 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Terminal-Blocks-Wire-to-Board_1935161
+#
+DEF dk_Terminal-Blocks-Wire-to-Board_1935161 J 0 40 Y Y 1 F N
+F0 "J" -50 200 50 H V R CNN
+F1 "dk_Terminal-Blocks-Wire-to-Board_1935161" 50 -100 50 H V C CNN
+F2 "digikey-footprints:Terminal_Block_D1.3mm_P5mm" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 200 300 60 H I L CNN
+F4 "277-1667-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "1935161" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Terminal Blocks - Wire to Board" 200 700 60 H I L CNN "Family"
+F8 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" 200 1000 60 H I L CNN "Description"
+F11 "Phoenix Contact" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 25 0 1 0 N
+C 100 0 25 0 1 0 N
+S -50 100 150 -50 0 1 0 f
+P 2 0 1 0 0 25 0 -25 N
+P 2 0 1 0 25 0 -25 0 N
+P 2 0 1 0 75 0 125 0 N
+P 2 0 1 0 100 25 100 -25 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

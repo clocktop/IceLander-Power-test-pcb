@@ -1,4 +1,4 @@
-17747885620894230
+17754278749403796
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -52297,6 +52297,13 @@ CONN_MALE_STICK
 1
 1
 OSU SIM FULL
+CUI_UJC-HP-3-SMT-TR
+
+
+0
+10
+10
+OSU SIM FULL
 Keystone_5019
 
 
@@ -78812,6 +78819,27 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+icelander-power-test-pcb
+BMI088-LGA-16
+
+
+0
+16
+16
+icelander-power-test-pcb
+CT10-XXXX-G1
+
+
+0
+2
+2
+icelander-power-test-pcb
+PowerPad
+
+
+0
+1
+1
 icelander-power-test-pcb
 VDFM-8_EP_3x3mm
 
