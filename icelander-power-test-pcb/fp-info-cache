@@ -1,4 +1,4 @@
-17754278749403796
+17759096138557121
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -78827,12 +78827,33 @@ BMI088-LGA-16
 16
 16
 icelander-power-test-pcb
+CP_Radial_D26.0mm_P12.50mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=26mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 26mm Electrolytic Capacitor
+0
+2
+2
+icelander-power-test-pcb
 CT10-XXXX-G1
 
 
 0
 2
 2
+icelander-power-test-pcb
+IHDF-1300AE-10
+
+
+0
+2
+2
+icelander-power-test-pcb
+PQFN-8_5x6
+
+
+0
+9
+3
 icelander-power-test-pcb
 PowerPad
 

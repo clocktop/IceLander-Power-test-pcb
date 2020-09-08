@@ -1,4 +1,4 @@
-(module CT10-XXXX-G1 (layer F.Cu) (tedit 5F45506A)
+(module CT10-XXXX-G1 (layer F.Cu) (tedit 5F52E6E7)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -7,4 +7,9 @@
   )
   (pad 1 smd rect (at -7.7 0) (size 2.18 1.04) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 7.7 0) (size 2.18 1.04) (layers F.Cu F.Paste F.Mask))
+  (model :mymodels:CT10-XXXX-G1-A.stp
+    (offset (xyz 0 0 1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

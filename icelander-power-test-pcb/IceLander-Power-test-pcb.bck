@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM5156x
+D Switching Voltage Regulators 2.2Mhz wide VIN automotive non-synchronous boost/SEPIC/flyback controller with spread spectrum
+F https://www.ti.com/lit/ds/symlink/lm5156-q1.pdf?ts=1599247524691&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5156-Q1
+$ENDCMP
+#
 $CMP MIC5283-3.3YML-TR
 D IC REG LINEAR 3.3V 150MA 8MLF
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5283.pdf
